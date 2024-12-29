@@ -1,0 +1,49 @@
+body{
+    background-image: url(../image/background.png);
+}
+h1{
+    font-weight: 800;
+}
+section .row button{
+    border: none;
+    background: black;
+    color: white;
+    border-radius: 20px;
+}
+.top-txt{
+    margin-top: 15px;
+}
+.desc{
+    background: #f1e9e9;
+    margin-top: 50px;
+    padding: 100px;
+}
+.serv{
+    margin: 50px 0 25px;
+}
+.chiffre{
+    margin: 50px 0 25px;
+}
+.about{
+margin-top: 60px !important;
+}
+.serv1{
+    background-color: #6fb5bc;
+    border-radius: 10px;
+    height: 315px;
+    padding: 15px;
+
+}
+.serv2{
+    background-color: #fcc23f;
+    height: 315px;
+    border-radius: 10px;
+    padding: 15px;
+}
+.serv3{
+    background-color: #5755a0;
+    height: 315px;
+    border-radius: 10px;
+    padding: 15px;
+
+}

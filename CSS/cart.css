@@ -1,0 +1,158 @@
+body{
+    background-image: url(../image/background.png);
+}
+.con{
+    margin-top: 50px;
+}
+.cart-item{
+    background-color: white;
+
+}
+.container .row{
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+    flex-direction: row-reverse;
+    justify-content: center;
+
+}
+
+.container .row .totalBack{
+    justify-content: center;
+    max-height: 415px;
+    padding: 10px 20px 20px;
+    border: 1px solid #d7d7d7;
+    margin-left: 20px;
+    position: sticky;
+    top: 10px;
+}
+.container .row .totalBack h3{
+    font-size: 19px;
+}
+.shipping span{
+    font-weight: 500;
+    color: #7e859b;
+}
+.free span{
+    font-weight: bold;
+    color: greenyellow;
+}
+.total{
+    font-size: 21px;
+    font-weight: bold;
+    padding: 20px 0;
+}
+.fixed button{
+    font-weight: 700;
+    padding: 10px 55px;
+    background: black;
+    border: none;
+    border-radius: 0;
+    transition: 0.3s;
+}
+/* .container .row .totalBack .fixed{
+    position: fixed;
+} */
+.container .row .main-container{
+    flex: 1;
+}
+.container .row .main-container .cart-item{
+    border: none !important;
+    box-shadow: 0px 0px 15px hsla(210, 8%, 62%, 0.8);
+    max-width: 750px;
+}
+.container .row .main-container .image{
+    margin-right: 20px;
+    box-shadow: 0px 9px 15px hsla(210, 8%, 62%, 0.8);
+    border-radius: 100px;
+    background-color: #f2f0ec;
+    overflow: hidden;
+
+}
+.image:hover img{
+    transform: scale(1.2) rotate(5deg);
+}
+
+.container .row .main-container img{
+    height: 200px;
+    min-width: 180px;
+    max-width: 0;
+    transition: 0.3s;
+    margin: 0 !important;
+}
+.h5{
+    font-weight: bold !important;
+}
+.name-close{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.close{
+  float: none !important;
+    background: transparent !important;
+    margin-left: 10px;
+    transition: 0.3s;
+    margin-bottom: 40px;
+}
+
+.quantity{
+    display: flex;
+    justify-content: flex-end;
+}
+.quantit-y{
+    display: flex;
+}
+.quantit-y button{
+    padding: 0 5px;
+    background-color: black;
+    border: none;
+}
+.btn-1{
+    padding: 0 7px !important;
+}
+.quantit-y p{
+    margin: auto 5px;
+}
+.price{
+    display: flex;
+    align-items: flex-end;
+    flex-direction: column;
+    margin-bottom:10px;
+    
+}
+.price span{
+    font-weight: bold;
+}
+.clear button{
+    margin: 14px 0;
+    padding: 10px 94px;
+}
+.container .row{
+    margin-right: 0px !important;
+}
+
+@media (max-width:420px){
+    .container .row .main-container .image {
+        margin-right: 0px;
+    }
+    .container .row .main-container img {
+        min-width: 140px;
+    }
+    .price{
+        justify-self: start;
+    }
+    .quantity {
+        justify-self: center;
+    }
+}
+.name-close button{
+    color: black;
+}
+.name-close button:hover{
+    color: black;
+    
+}

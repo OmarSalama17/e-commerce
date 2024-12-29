@@ -1,0 +1,106 @@
+body{
+    background-image: url(../image/background.png);
+}
+.main-heading{
+    text-align: center;
+}
+.contact .content{
+    display: flex;
+    justify-content: space-between;
+}
+@media (max-width: 767px){
+    .contact .content{
+        flex-direction: column;
+    }
+}
+.contact .content form{
+    flex-basis: 70%;
+    display: flex;
+    flex-direction: column;
+}
+.contact .content form .main-input{
+    display: block;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-bottom: 30px;
+}
+.contact .content form  textarea.main-input{
+    height: 200px;
+
+}
+.contact .content form input[type="submit"]{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    border: none;
+    display: flex;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.contact .content .info{
+    flex-basis: 25%;
+}
+.phone{
+    display: flex;
+}
+.mail{
+    color: #777;
+    margin-left: 10px;
+}
+.i{
+    margin-right: 10px;
+}
+.email-icon{
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
+}
+form button{
+    border: none;
+    color: rgb(0, 0, 0);
+    height: 35px;
+}
+
+@media (max-width: 767px){
+    .contact .content .info{
+        order: -1;
+        text-align: center;
+    }
+}
+.contact .content .info h4{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-weight: 500;
+    font-size: 18px;
+} 
+.contact .content .info .phone{
+    color: #777;
+    margin-bottom: 10px;
+
+}
+.contact .content .info h4:last-of-type{
+    margin-top: 90px;
+}
+@media (max-width: 767px){
+    .contact .content .info h4:last-of-type{
+        margin: 30px;
+    }
+}
+.contact .content .info address{
+    color: #777;
+    line-height: 2;
+    padding-bottom: 20px;
+    border-bottom: 1px solid black;
+
+}
+@media (max-width: 767px){
+    .contact .content .info address{
+        margin: 40px;
+}
+.email-icon{
+justify-content: center;
+}
+.phone{
+    justify-content: center;
+}
+}
