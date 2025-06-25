@@ -1,7 +1,7 @@
 window.addEventListener('DOMContentLoaded', (event) => {
   updateCartCount();
 });
-const target = new Date("Feb 29, 2025 23:59:59").getTime();
+const target = new Date("Feb 29, 2028 23:59:59").getTime();
 
 let countdown = setInterval(function () {
   let now = new Date().getTime();
